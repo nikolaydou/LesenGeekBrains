@@ -105,7 +105,7 @@ public class Metods {
 
 ///////////////////////////////////////////////////////////////
     public static int[][] zamenadiag(int [][]arg){
-    int size = 5;// (int) Math.random();
+    int size = 1+ (int) (Math.random()*10);
         arg=new int[size][];
 
         for (int i=0 ; i < size ; i++){
