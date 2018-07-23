@@ -100,7 +100,7 @@ return true;
     String buf_putka = "";
             if(flag) {
                 if ( !flag_mozg) {
-                    int rand_zzaputka =1; //(int) (5 + Math.random() * 30);
+                    int rand_zzaputka =(int) (5 + Math.random() * 30);
                     for (int i = 0; i < rand_zzaputka; i++)
                         buf_putka += "*";
                     System.out.println(print+"\n\n\n\n"+resultat+buf_putka);
@@ -108,7 +108,7 @@ return true;
                     System.out.println("поздравляю вы отгадали слово");
             }
             else
-                System.out.println(print+World);
+                System.out.println(print);
         }
 
 
